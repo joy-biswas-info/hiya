@@ -1,0 +1,78 @@
+body {
+    margin: 20px;
+  }
+  .company-details{
+    width: 560px;
+    padding: 40px;
+    margin: 0 auto;
+  }
+
+  .form-heading{
+    font-size: 30px;
+  }
+  input {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  input::placeholder,label {
+    color: #BBB;
+  }
+  .iti {
+    display: unset;
+}
+
+.btn{
+    border: 1px solid #007E60;
+    width: 100%;
+    padding: 15px 20px;
+    font-weight: 600;
+}
+
+.btn:hover,.back-btn:hover{
+    border: 1px solid #007E60;
+    width: 100%;
+    padding: 15px 20px;
+    font-weight: 600;
+}
+.back-btn:hover{
+    background-color: #007E60;
+    color: #fff;
+    border: 1px solid #007E60;
+    width: 100%;
+    padding: 15px 20px;
+    font-weight: 600;
+}
+
+.next-btn{
+    background-color: #007E60;
+    color: #fff;
+}
+
+.tab {
+    display: none;
+  }
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 20%;
+    margin: -2px;
+    background-color: #bbbbbb;
+    border: none;  
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #04AA6D;
+  }
+
+
+  
